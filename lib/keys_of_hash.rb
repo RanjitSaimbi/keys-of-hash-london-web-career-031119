@@ -3,7 +3,10 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     self.each do |animal_key,country| 
-      
+      arguments.each do |argument|
+        if argument == country
+          animal_key
+        end 
     end 
   end
 end
