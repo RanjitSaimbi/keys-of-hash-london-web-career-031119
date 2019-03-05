@@ -6,6 +6,7 @@ class Hash
     if arguments.include? (country) 
       animal_key
     end 
+    end 
   end
 end
 
