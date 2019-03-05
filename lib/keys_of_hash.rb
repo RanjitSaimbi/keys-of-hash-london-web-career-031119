@@ -5,6 +5,7 @@ class Hash
     self.keys
     arguments.each do |argument|
       puts argument
+    end 
     binding.pry
   end
 end
