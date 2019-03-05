@@ -2,7 +2,7 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-    self.values.each do |country| 
+    self.each do |country| 
     if arguments.include? (country) 
       
     end 
