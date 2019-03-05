@@ -1,8 +1,9 @@
 require 'pry'
 
 class Hash
+  new_array = []
   def keys_of(*arguments)
-    new_array = []
+    
     self.each do |animal_key,country| 
     if arguments.include? (country) 
       new_array << animal_key
