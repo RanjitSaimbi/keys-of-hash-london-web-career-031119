@@ -2,9 +2,7 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-   
    arguments.any? { |i| self.values include? i }
-   
   end
 end
 
