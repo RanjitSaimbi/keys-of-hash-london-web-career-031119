@@ -4,7 +4,6 @@ class Hash
   def keys_of(*arguments)
    self.values.map do |animal_key, country| 
    
-   
   end
 end
 
