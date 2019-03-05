@@ -3,8 +3,8 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     self.values.each do |country| 
-    if arguments.include? 
-    
+    if arguments.include? (country) 
+      
     end 
   end
 end
