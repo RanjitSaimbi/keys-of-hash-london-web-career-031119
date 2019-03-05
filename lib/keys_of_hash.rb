@@ -7,7 +7,7 @@ class Hash
         if argument == country
           animal_key
         end 
-        end 
+      end 
     end 
   end
 end
